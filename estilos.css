@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-color: rgb(34, 31, 31);
+    color: #fff;
+
+}
+
+.contenedor{
+    
+    width: 800px;
+    height: 100px;
+}
+.teclado{
+    background-image: url(img/Mano_derecha_abriendo.jpg) ;
+    background-size: cover;
+    margin: 0px auto;
+    width: 800px;
+    height: 450px;
+    position: absolute;
+}
+.teclas{
+    
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+}
+
+#do4{
+    transform: translate(315%,330%);
+    background-color: rgb(92, 221, 193);
+}
+#dosos4{
+    transform: translate(300%,220%);
+    background-color: rgb(92, 221, 193);
+}
+#re4{
+    transform: translate(300%,306%);
+    background-color: rgb(92, 221, 193);
+}
+#resos4{
+    transform: translate(45%,740%);
+    background-color: rgb(92, 221, 193);
+}
+#mi4{
+    transform: translate(6%,430%);
+    background-color: rgb(92, 221, 193);
+}
+#fa4{
+    transform: translate(-235%,600%);
+    background-color: rgb(92, 221, 193);
+}
+#fasos4{
+    transform: translate(180%,410%);
+    background-color: rgb(92, 221, 193);
+}
+#sol4{
+    transform: translate(-25%,300%);
+    background-color: rgb(92, 221, 193);
+}
+#solsos4{
+    transform: translate(-170%,550%);
+    background-color: rgb(92, 221, 193);
+}
+#la4{
+    transform: translate(55%,430%);
+    background-color: rgb(92, 221, 193);
+}
+#lasos4{
+    transform: translate(-585%,560%);
+    background-color: rgb(92, 221, 193);
+}
+#si4{
+    transform: translate(-295%,550%);
+    background-color: rgb(92, 221, 193);
+}
+#do5{
+    transform: translate(-70%,470%);
+    background-color: rgb(245, 184, 226);
+}
